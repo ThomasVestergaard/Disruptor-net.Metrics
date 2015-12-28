@@ -11,6 +11,7 @@ It will have a small impact on the overall performance of your ringbuffer. You n
 
 
 # Usage - 3 easy steps
+This example will output metrics every second to the console.
 
 1.
 What ever you put in your ringbuffer, make it implement IRingBufferItem.
