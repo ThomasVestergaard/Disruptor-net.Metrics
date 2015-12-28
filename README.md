@@ -32,10 +32,10 @@ When you enqueue a new item, set FirstTouchTime to UtcNow
 ```
   public void Enqueue(QueueItem item)
         {
-            item.FirstTouchTime = DateTimeOffset.UtcNow;
             var next = ringBuffer.Next();
             var entry = ringBuffer[next];
             entry.Update(item);
+            entry.FirstTouchTime = DateTimeOffset.UtcNow;
             ringBuffer.Publish(next);
         }
 ```
