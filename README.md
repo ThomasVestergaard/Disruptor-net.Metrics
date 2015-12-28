@@ -10,7 +10,7 @@ It will:
 # Usage - 3 easy steps
 
 1.
-What ever you put in your rinbuffer, make it implement IRingbufferItem.
+What ever you put in your ringbuffer, make it implement IRingBufferItem.
 
 ```
 public class QueueItem : IRingBufferItem
