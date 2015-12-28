@@ -5,7 +5,7 @@ It will:
  - Tell you how many items has been processed.
  - Min, max and average time (milliseconds) each item spent in the queue.
  - How much (percentage) of your ringbuffer is avilable.
- - Dump this data in your favorite loggin framework via sinks.
+ - Dump this data in your favorite logging framework via sinks (yes I stole the sink concept from serilog).
 
 It will have a small impact on the overall performance of your ringbuffer. You need to choose carefully how you use it - If you log too much too often you will ruin performance. Play around with the settings to find your sweet spot.
 
