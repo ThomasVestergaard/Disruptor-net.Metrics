@@ -7,6 +7,9 @@ It will:
  - How much (percentage) of your ringbuffer is avilable.
  - Dump this data in your favorite loggin framework via sinks.
 
+It will have a small impact on the overall performance of your ringbuffer. You need to choose carefully how you use it - If you log too much too often you will ruin performance. Play round with the settings to find what suits your needs.
+
+
 # Usage - 3 easy steps
 
 1.
