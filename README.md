@@ -55,3 +55,6 @@ Add the metrics eventhandler to your disruptor.
     ringBuffer = disruptor.Start();
     metricsEventHandler.Setup(ringBuffer); // Important: Do this AFTER disruptor.Start() has been run.
 ```
+
+#License
+See the [LICENSE](https://github.com/ThomasVestergaard/Disruptor-net.Metrics/blob/master/LICENSE.md) file for license rights and limitations (MIT).
