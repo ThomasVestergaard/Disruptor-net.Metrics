@@ -9,6 +9,8 @@ It will:
 
 It will have a small impact on the overall performance of your ringbuffer. You need to choose carefully how you use it - If you log too much too often you will ruin performance. Play around with the settings to find your sweet spot.
 
+# Also available on nuget
+https://www.nuget.org/packages/Disruptor-net.Metrics/
 
 # Usage - 3 easy steps
 This example will output metrics every second to the console.
